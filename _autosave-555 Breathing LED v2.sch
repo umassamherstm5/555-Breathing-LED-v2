@@ -276,4 +276,41 @@ F 3 "~" H 6450 3050 50  0001 C CNN
 	1    6450 3050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 6141E819
+P 3800 3250
+F 0 "BT1" H 3918 3346 50  0000 L CNN
+F 1 "Battery_Cell" H 3918 3255 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_107_1x23mm" V 3800 3310 50  0001 C CNN
+F 3 "~" V 3800 3310 50  0001 C CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61421A93
+P 3800 2500
+F 0 "#PWR?" H 3800 2350 50  0001 C CNN
+F 1 "VCC" H 3815 2673 50  0000 C CNN
+F 2 "" H 3800 2500 50  0001 C CNN
+F 3 "" H 3800 2500 50  0001 C CNN
+	1    3800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614228AA
+P 3800 4150
+F 0 "#PWR?" H 3800 3900 50  0001 C CNN
+F 1 "GND" H 3805 3977 50  0000 C CNN
+F 2 "" H 3800 4150 50  0001 C CNN
+F 3 "" H 3800 4150 50  0001 C CNN
+	1    3800 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3350 3800 4150
+Wire Wire Line
+	3800 2500 3800 3050
 $EndSCHEMATC
