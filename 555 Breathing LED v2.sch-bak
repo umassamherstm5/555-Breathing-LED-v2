@@ -106,7 +106,7 @@ L Device:R_US R2
 U 1 1 613E13B4
 P 8250 3800
 F 0 "R2" H 8318 3799 50  0000 L CNN
-F 1 "220" H 8318 3755 50  0001 L CNN
+F 1 "100" H 8318 3720 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 8290 3790 50  0001 C CNN
 F 3 "~" H 8250 3800 50  0001 C CNN
 	1    8250 3800
@@ -295,12 +295,6 @@ F 3 "" H 3800 4150 50  0001 C CNN
 	1    3800 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 7200 4700 0    50   ~ 0
-220 ohm for Red, Yellow, White, and Blue LED
-Text Notes 7200 4800 0    50   ~ 0
-100 ohm for Green LED
-Text Notes 7200 4600 0    50   ~ 0
-R2 Note
 $Comp
 L Device:R_POT_US R5
 U 1 1 6141A453
