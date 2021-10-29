@@ -1,18 +1,4 @@
-19213809682326476
-555-Breathing-LED-v2
-BatteryHolder_MPD_BA9VPC_1xPP3noholes
-1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf
-PP3 Battery Holder BA9VPC 9V
-0
-2
-2
-555-Breathing-LED-v2
-MHS12204_SPDT
-
-
-0
-5
-3
+19217084066632485
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56223,6 +56209,34 @@ Yellow 5381 Series LED
 0
 2
 2
+Local
+BatteryHolder_MPD_BA9VPC_1xPP3noholes
+1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf
+PP3 Battery Holder BA9VPC 9V
+0
+2
+2
+Local
+MHS12204_SPDT
+
+
+0
+5
+3
+Local
+Standoff_M2x0.4
+
+
+0
+1
+1
+Local
+Switch Indicator
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
