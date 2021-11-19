@@ -331,7 +331,7 @@ $EndComp
 Wire Wire Line
 	3050 3150 3050 3400
 $Comp
-L Simulation_SPICE:DIODE D2
+L Device:D D2
 U 1 1 617C88F4
 P 3150 4050
 F 0 "D2" V 3196 3970 50  0000 R CNN
@@ -341,7 +341,7 @@ F 3 "~" H 3150 4050 50  0001 C CNN
 F 4 "Y" H 3150 4050 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "D" H 3150 4050 50  0001 L CNN "Spice_Primitive"
 	1    3150 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0110

@@ -268,7 +268,7 @@ U 1 1 6141E819
 P 3150 4500
 F 0 "BT1" H 3268 4596 50  0000 L CNN
 F 1 "Battery_Cell" H 3268 4505 50  0000 L CNN
-F 2 "Battery:BatteryHolder_MPD_BA9VPC_1xPP3" V 3150 4560 50  0001 C CNN
+F 2 "Local:BatteryHolder_MPD_BA9VPC_1xPP3noholes" V 3150 4560 50  0001 C CNN
 F 3 "~" V 3150 4560 50  0001 C CNN
 	1    3150 4500
 	1    0    0    -1  
@@ -341,7 +341,7 @@ F 3 "~" H 3150 4050 50  0001 C CNN
 F 4 "Y" H 3150 4050 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "D" H 3150 4050 50  0001 L CNN "Spice_Primitive"
 	1    3150 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0110
